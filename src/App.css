@@ -1,0 +1,121 @@
+/* App Component Styles */
+.app-container {
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+.app-main {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+
+@media (min-width: 640px) {
+  .app-main {
+    padding: 3rem 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .app-main {
+    padding: 3rem 2rem;
+  }
+}
+
+.app-intro {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.app-intro-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.app-intro-text {
+  font-size: 1.25rem;
+  color: #4b5563;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.app-stats {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .app-stats {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.app-stat-item {
+  text-align: center;
+}
+
+.app-stat-icon {
+  font-size: 2.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.app-stat-number {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #111827;
+}
+
+.app-stat-text {
+  color: #4b5563;
+}
+
+.app-test-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .app-test-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .app-test-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.app-footer {
+  background-color: white;
+  border-top: 1px solid #e5e7eb;
+  margin-top: 5rem;
+}
+
+.app-footer-content {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+@media (min-width: 640px) {
+  .app-footer-content {
+    padding: 2rem 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .app-footer-content {
+    padding: 2rem 2rem;
+  }
+}
+
+.app-footer-text {
+  text-align: center;
+  color: #4b5563;
+}

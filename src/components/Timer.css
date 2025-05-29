@@ -1,0 +1,32 @@
+.timer-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.timer-icon {
+  font-size: 18px;
+}
+
+.timer-display {
+  font-size: 18px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.timer-display.green {
+  color: #16a34a;
+}
+
+.timer-display.yellow {
+  color: #ca8a04;
+}
+
+.timer-display.red {
+  color: #dc2626;
+}
+
+.timer-paused {
+  font-size: 14px;
+  color: #6b7280;
+}

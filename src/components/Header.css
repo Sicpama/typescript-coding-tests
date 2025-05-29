@@ -1,0 +1,50 @@
+/* Header Component Styles */
+.header-container {
+  background-color: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.header-content {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .header-content {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header-content {
+    padding: 0 2rem;
+  }
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-icon {
+  font-size: 1.875rem;
+}
+
+.header-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #111827;
+}
+
+.header-subtitle {
+  color: #4b5563;
+}

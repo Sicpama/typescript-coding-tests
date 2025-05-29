@@ -1,0 +1,6 @@
+/* CodeEditor Component Styles */
+.code-editor-container {
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
